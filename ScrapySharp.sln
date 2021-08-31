@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ScrapySharp.Core", "ScrapySharp.Core\ScrapySharp.Core.fsproj", "{CE27016B-2755-4B44-8A0E-574914B9256F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{F0E92760-C697-4CC6-8767-8929C6C9898E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScrapySharp", "ScrapySharp\ScrapySharp.csproj", "{81993626-9B77-4062-8B41-F2F2C9BA1FDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Debug|x64.Build.0 = Debug|Any CPU
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Debug|x86.Build.0 = Debug|Any CPU
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Release|x64.ActiveCfg = Release|Any CPU
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Release|x64.Build.0 = Release|Any CPU
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Release|x86.ActiveCfg = Release|Any CPU
+		{CE27016B-2755-4B44-8A0E-574914B9256F}.Release|x86.Build.0 = Release|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Debug|x64.Build.0 = Debug|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Debug|x86.Build.0 = Debug|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Release|x64.ActiveCfg = Release|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Release|x64.Build.0 = Release|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Release|x86.ActiveCfg = Release|Any CPU
+		{0144A4F5-A993-4DCB-B67B-CB04CCF95E3E}.Release|x86.Build.0 = Release|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Debug|x64.Build.0 = Debug|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Debug|x86.Build.0 = Debug|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Release|x64.ActiveCfg = Release|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Release|x64.Build.0 = Release|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Release|x86.ActiveCfg = Release|Any CPU
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE27016B-2755-4B44-8A0E-574914B9256F} = {F0E92760-C697-4CC6-8767-8929C6C9898E}
+		{81993626-9B77-4062-8B41-F2F2C9BA1FDD} = {F0E92760-C697-4CC6-8767-8929C6C9898E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C59F1A8F-5E55-49D2-BA6E-B18D42E44772}
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ScrapySharp.vsmdi
+	EndGlobalSection
+EndGlobal
