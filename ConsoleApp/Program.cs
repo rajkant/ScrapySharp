@@ -1,6 +1,4 @@
 ﻿using System;
-using ScrapySharp.Html.Dom;
-using ScrapySharp.Html.Parsing;
 using System.Linq;
 using ScrapySharp.Extensions;
 using System.Net;
@@ -17,9 +15,9 @@ namespace ConsoleApp1
             Console.WriteLine("Hello World!");
             
             NetworkCredential proxyCreds = new NetworkCredential("GSQ3HHC", "");
-            //string url = "http://tipidpc.com/catalog.php?cat=0&sec=s";            
+            string url = "http://tipidpc.com/catalog.php?cat=0&sec=s";            
             //string url = "https://blog.scrapinghub.com";
-            string url = "http://desilouisville.com/indian-desi-community-classifieds-sales-car-sale-room-mates-babysitting-beauty-parlor.php?cat=6";
+            
             string result = ScrapeSourceAsync(url, proxyCreds).GetAwaiter().GetResult();
                         
             var webGet = new HtmlWeb();
@@ -41,15 +39,15 @@ namespace ConsoleApp1
         private static async Task<string> ScrapeSourceAsync(string url, NetworkCredential proxyCreds)
         {
             string responseBody = string.Empty;
-            WebProxy proxy = new WebProxy("proxy.ups.com:8080", false)
-            {
-                UseDefaultCredentials = false,
-                Credentials = proxyCreds,
-            };
+            //WebProxy proxy = new WebProxy("proxy.ups.com:8080", false)
+            //{
+            //    UseDefaultCredentials = false,
+            //    Credentials = proxyCreds,
+            //};
 
             HttpClientHandler httpClientHandler = new HttpClientHandler()
             {
-                Proxy = proxy,
+                //Proxy = proxy,
                 PreAuthenticate = true,
                 UseDefaultCredentials = false,
                 Credentials = proxyCreds
